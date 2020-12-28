@@ -3,8 +3,7 @@ body {
     height: 100%;
     /* background-color: navy; */
     /* remove */
-    padding-bottom: 20vh;
-    color: ;
+    /* padding-bottom: 20vh; */
 }
 
 .background-img-panel {
@@ -23,13 +22,29 @@ body {
 }
 
 .accordion-button {
-    font-size: 1.2em;
+    font-size: 2rem;
 }
 
 .accordion-body {
-    font-size: 1.1em;
+    font-size: 1.3rem;
 }
 
 .side-img {
     width: 100%;
+}
+
+@media (max-width: 600px) {
+
+    .background-img-panel {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .accordion-button {
+        font-size: 0.8rem;
+    }
+            
+    .accordion-body {
+        font-size: 0.7rem;
+    }
 }
