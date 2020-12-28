@@ -1,0 +1,49 @@
+#contactLinks{
+    background-color: #1B242F;
+    height: auto;
+    color: white;
+}
+
+#vShape{
+    background-color: #1B242F;
+}
+
+.contactIcons{
+    background-color: #F4D546;
+    width: 3rem;  
+    height: 3rem;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+
+.iconify{
+    width: 2rem;
+    height: 2rem;    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+}
+
+.contactLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.copyright{
+    color: #8F9AA7;
+}
+
+@media(max-width: 700px){
+
+    .contactIcons{
+        width: 2.5em;
+        height: 2.5em;
+    }
+}

@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+button, button:focus {
+  outline: none;
+  border: none;
+}
+
+.row {
+  width: 100%;
+}
+
+.title {
+  color: #18489D;
+  background-color: #F4D546;
+}
+
+@media (max-width: 600px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .mobile {
+    display: none;
+  }
+}
+
